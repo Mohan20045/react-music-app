@@ -1,0 +1,30 @@
+/* Styling for the form fields */
+.add-song-form input {
+    margin-bottom: 15px;
+  }
+  
+  /* Optional: You can customize the modal to look better */
+  .modal-content {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .modal-header {
+    background-color: #007bff;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .modal-footer {
+    background-color: #f8f9fa;
+  }
+  
+  button {
+    font-size: 16px;
+  }
+/* Add some spacing below the navbar */
+.container.mt-5 {
+    margin-top: 80px; 
+  }
+    

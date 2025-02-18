@@ -1,0 +1,59 @@
+/* home.module.css */
+
+.homeContainer {
+  display: flex;
+  padding-right: 300px; /* Leave space for the fixed player */
+  flex-direction: column;
+}
+
+.songList {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  gap: 20px; /* Spacing between cards */
+  justify-content: space-between; /* Evenly distribute cards */
+  padding: 20px;
+}
+
+.songCard {
+  cursor: pointer;
+  transition: transform 0.2s;
+  width: 100%; /* Make cards full-width on smaller screens */
+  max-width: 300px; /* Limit the width of the cards */
+}
+
+.songCard:hover {
+  transform: scale(1.05);
+}
+
+.songImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; /* Ensures all images fit the card */
+  border-radius: 5px;
+}
+
+.cardTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.cardText {
+  color: #666;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .songCard {
+    width: 100%; /* Make cards full-width on mobile */
+  }
+}
+
+
+  
